@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <!-- Information Technology Home Page 
+       		Author: 	Susan Leopold
+       		Date:		November, 2017
+       -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>| Information Technology Home |</title>
+		
+        <!-- Get the PT Sans font from Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=PT Sans" rel="stylesheet" type="text/css">
+
+        <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+        
+        <!-- Custom Stylesheet -->
+        <link rel="stylesheet" href="./css/style.css" type="text/css">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px 12px 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 6px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #8a1a3e;
+    color: white;
+	width: 25%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+	}
+
+input[type=submit]:hover {
+    background-color: #8a1a3e;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+	.checkbox {
+padding: 0px 12px 0px 0;
+	}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+</style>
+    </head>
+    <body>
+
+
+
+        <div class="wrapper">
+            <!-- Sidebar Holder -->
+            <nav id="sidebar">
+                <div class="sidebar-header"><img src="images/campus.jpg" alt="Placeholder image" width="250" height="90" padding="0px" class="img-responsive" >
+              </div>
+
+                <ul class="list-unstyled components">
+                <li class="active">
+
+                    
+  
+                  <li>
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">About IT at LCCC</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                    
+                    
+						<li><a  href="news.html">IT News</a></li>
+						<li><a href="staff.html">IT Staff</a></li>
+						<li><a href="#">IT Calendar</a></li>
+                        <li><a href="#">LCCC Computing Committees</a></li>
+                    </ul>
+                    </li>
+                    <li>
+                        <a href="#">IT Policies</a>
+                    </li>
+                    
+                    <li>
+                    	<a href="#serviceSubmenu"  data-toggle="collapse" aria-expanded="false">
+                    		IT Services A-Z
+						</a>
+					</li>
+                     
+                      <ul class="collapse list-unstyled" id="serviceSubmenu">
+                            <li><a href="#">Services By Category</a></li>
+                            <li><a href="#">Services FAQ</a></li>
+                      </ul>
+                     </li>
+                     
+                  <li>
+                    <a href="student_resources.html">Student Resources</a>
+                    </li>
+                     
+                    <li>
+                        <a href="faculty_resources.html">Faculty Resources</a>
+                    </li>
+                     
+                    <li>
+                        <a href="staff_resources.html">Staff Resources</a>
+                    </li>
+                     
+
+                     
+                    <li>
+                        <a href="projects.html">IT Projects</a>
+                    </li>
+                    <li>
+                     <a href="#specialSubmenu" data-toggle="collapse" aria-expanded="false">IT Matters</a>
+                      <ul class="collapse list-unstyled" id="specialSubmenu">
+                            <li><a href="#">Alerts</a></li>
+                            <li><a href="#">Special Events</a></li>
+                            <li><a href="#">Bulletins, etc</a></li>
+
+                      </ul>
+                  </li>
+                    	
+
+              </ul>
+               <aside class="gethelp">
+                <h3>Get Help</h3>
+                Help Desk: (phone number)<br>
+                helpdesk@lccc.<br>
+                Hours: M–F, 8 a.m. – 5 p.m.<br>
+                <a href="request.html">Submit a request to the Help Desk</a><br>
+                Follow us on Twitter (can this be done) for critical updates
+            </aside>
+
+            </nav>
+               	
+
+
+            <!-- Page Content Holder -->
+            <div id="content">
+                   <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+
+                        <div class="navbar-header">
+                            <button type="button" id="sidebarCollapse" class="navbar-btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#">About IT</a></li>
+                                <li><a href="#">Policies</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Resources</a></li>
+                                <li><a href="#">IT Projects</a></li>
+                                <li><a href="#">It Matters</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+<article class="article_wrapper">
+<div class="container">
+ 	<h2>Request for Support</h2>
+		<p><em>During the normal work day (Monday-Friday, 8:00am-5:00pm), you can expect a response from a real person within one school day.</em></p>
+		<p><em>Should you need immediate assistance, call the help desk at </em></p>
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="phone">Phone</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="email">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="email" name="email" placeholder="Your email..">
+      </div>
+    </div>
+    
+    <div class="row">
+    	<p>
+		<h4>User Type</h4> 
+   	    <label>
+    	    <input type="radio" name="user_type" value="faculty" id="faculty">
+    	    Faculty</label>
+    	  
+    	  <label>
+    	    <input type="radio" name="user_type" value="staff" id="staff">
+    	    Staff</label>
+    	 
+    	  <label>
+    	    <input type="radio" name="user_type" value="student" id="student">
+    	    Student</label>
+    	  
+  	  </p>
+    </div>
+        <div class="row">
+    	<p>
+		<h4>Computer Type</h4> 
+   	    <label>
+    	    <input type="radio" name="computer_type" value="desktop" id="desktop">
+    	    Desktop</label>
+    	  
+    	  <label>
+    	    <input type="radio" name="computer_type" value="laptop" id="laptop">
+    	    Laptop</label>
+    	 
+    	  <label>
+    	    <input type="radio" name="computer_type" value="tablet" id="tablet">
+    	    Tablet</label>
+    	  
+  	  </p>
+    </div>
+    
+            <div class="row">
+    	<p>
+		<h4>Operating System</h4> 
+   	    <label>
+    	    <input type="radio" name="operating_system" value="windows" id="windows">
+    	    Windows</label>
+    	  
+    	  <label>
+    	    <input type="radio" name="operating_system" value="mac_os" id="mac_os">
+    	    Mac OS X</label>
+    	 
+    	  <label>
+    	    <input type="radio" name="operating_system" value="linux_unix" id="linux_unix">
+    	    Linux/Unix</label>
+    	  
+    	  <label>
+    	    <input type="radio" name="operating_system" value="ios" id="ios">
+    	    iOS</label>
+ 
+    	       	    	 
+    	  <label>
+    	    <input type="radio" name="operating_system" value="android" id="android">
+    	    Android</label>    	  
+  	  </p>
+    </div>
+    <div class="row">
+	  <h4>Concerning</h4> 
+	
+  	      <label>
+  	        <input type="checkbox" name="concerning" value="software" id="concerning" >
+  	        Application Setup</label>
+  	      <br>
+  	      <label>
+  	        <input type="checkbox" name="concerning" value="classroom" id="concerning_1">
+  	        Classroom/Lab</label>
+  	      <br>
+  	      <label>
+  	        <input type="checkbox" name="concerning" value="email_issue" id="concerning_2">
+  	        E-Mail</label>
+  	      <br>
+  	      <label>
+  	        <input type="checkbox" name="concerning" value="wireless" id="concerning_3">
+  	        Wireless Network</label>
+  	      <br>
+  	      <label>
+  	        <input type="checkbox" name="concerning" value="website" id="concerning_4">
+  	        LCCC Website</label>
+  	      <br>
+  	      <label>
+  	        <input type="checkbox" name="concerning" value="malware" id="concerning_5">
+  	        Malware</label>
+  	      <br>
+  	      <label>
+  	        <input type="checkbox" name="concerning" value="other" id="concerning_6">
+  	        Other</label>
+  	      <br>
+  	      <label>
+  	        <input type="checkbox" name="concerning" value="portal" id="concerning_7">
+  	        Portal</label>
+  	      <br>
+  	      <label>
+  	        <input type="checkbox" name="concerning" value="printers" id="concerning_8">
+  	        Printers/Other Peripherals</label>
+  	      <br>
+  	      <label>
+  	        <input type="checkbox" name="concerning" value="wired" id="concerning_9">
+  	        Wired Network</label>
+  	      <br>
+</div>
+  
+ <div class="row">
+    	<p>
+		<h4>Additional Information</h4> 
+ 	    <p><em>Have you installed any new software or hardware, changed any settings, or made any other changes to this computer recently?</em></p>
+  	    
+   	    <label>
+    	    <input type="radio" name="changes" value="yes" id="yes">
+    	    Yes</label>
+    	  
+    	  <label>
+    	    <input type="radio" name="changes" value="no" id="no">
+    	    No</label>
+    	  
+  	  </p>
+    </div>   
+       
+    <div class="row">
+      <div class="col-25">
+        <label for="subject"><h4>Describe your support request</h4></label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit Your Request">
+    </div>
+  </form>
+</div>
+
+
+
+</article>	
+ 
+
+                
+            </div>
+        </div>
+
+
+
+        <!-- jQuery CDN -->
+         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+         <!-- Bootstrap Js CDN -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+         <script type="text/javascript">
+             $(document).ready(function () {
+                 $('#sidebarCollapse').on('click', function () {
+                     $('#sidebar').toggleClass('active');
+                     $(this).toggleClass('active');
+                 });
+             });
+         </script>
+<script>
+
+
+    </body>
+</html>
